@@ -1,0 +1,27 @@
+C:\Users\estelle\Documents\Visual Studio 2010\Projects\GestionBiblio\GestionBiblio\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\estelle\Documents\Visual Studio 2010\Projects\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.IHM.Emprunt.resources
+C:\Users\estelle\Documents\Visual Studio 2010\Projects\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.Properties.Resources.resources
+C:\Users\estelle\Documents\Visual Studio 2010\Projects\GestionBiblio\GestionBiblio\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\estelle\Documents\Visual Studio 2010\Projects\GestionBiblio\GestionBiblio\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\estelle\Documents\Visual Studio 2010\Projects\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.IHM.Editeur.resources
+C:\Users\estelle\Documents\Visual Studio 2010\Projects\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.IHM.Exemplaire.resources
+C:\Users\estelle\Documents\Visual Studio 2010\Projects\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.IHM.Livre.resources
+C:\Users\estelle\Documents\Visual Studio 2010\Projects\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.IHM.LigneEmprunt.resources
+C:\Users\estelle\Documents\Visual Studio 2010\Projects\GestionBiblio\GestionBiblio\bin\Debug\GestionBiblio.exe
+C:\Users\estelle\Documents\Visual Studio 2010\Projects\GestionBiblio\GestionBiblio\bin\Debug\GestionBiblio.pdb
+C:\Users\estelle\Documents\Visual Studio 2010\Projects\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.exe
+C:\Users\estelle\Documents\Visual Studio 2010\Projects\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.pdb
+H:\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.exe
+H:\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.pdb
+K:\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.exe
+K:\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.pdb
+K:\GestionBiblio\GestionBiblio\obj\x86\Debug\ResolveAssemblyReference.cache
+K:\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.IHM.Editeur.resources
+K:\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.IHM.Emprunt.resources
+K:\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.IHM.Exemplaire.resources
+K:\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.IHM.Lecteur.resources
+K:\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.IHM.LigneEmprunt.resources
+K:\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.IHM.Livre.resources
+K:\GestionBiblio\GestionBiblio\obj\x86\Debug\GestionBiblio.Properties.Resources.resources
+K:\GestionBiblio\GestionBiblio\obj\x86\Debug\GenerateResource.read.1.tlog
+K:\GestionBiblio\GestionBiblio\obj\x86\Debug\GenerateResource.write.1.tlog

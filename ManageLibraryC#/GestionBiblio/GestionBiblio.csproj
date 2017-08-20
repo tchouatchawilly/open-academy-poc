@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DE236C35-DB50-4B47-9939-19F30FD3BFE9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GestionBiblio</RootNamespace>
+    <AssemblyName>GestionBiblio</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.4.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\EditeurBLL.cs" />
+    <Compile Include="BLL\EmpruntBLL.cs" />
+    <Compile Include="BLL\ExemplaireBLL.cs" />
+    <Compile Include="BLL\LigneEmpruntBLL.cs" />
+    <Compile Include="BLL\LivreBLL.cs" />
+    <Compile Include="DAO\Database.cs" />
+    <Compile Include="DAO\EditeurDAO.cs" />
+    <Compile Include="DAO\EmpruntDAO.cs" />
+    <Compile Include="DAO\ExemplaireDAO.cs" />
+    <Compile Include="DAO\LigneEmpruntDAO.cs" />
+    <Compile Include="DAO\LivreDAO.cs" />
+    <Compile Include="ENTITY\Auteur.cs" />
+    <Compile Include="ENTITY\Editeur.cs" />
+    <Compile Include="ENTITY\Emprunt.cs" />
+    <Compile Include="ENTITY\Exemplaire.cs" />
+    <Compile Include="ENTITY\Lecteur.cs" />
+    <Compile Include="ENTITY\LigneEmprunt.cs" />
+    <Compile Include="ENTITY\LigneLivre.cs" />
+    <Compile Include="ENTITY\Livre.cs" />
+    <Compile Include="ENTITY\Theme.cs" />
+    <Compile Include="IHM\Editeur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IHM\Editeur.Designer.cs">
+      <DependentUpon>Editeur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IHM\Emprunt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IHM\Emprunt.Designer.cs">
+      <DependentUpon>Emprunt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IHM\Exemplaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IHM\Exemplaire.Designer.cs">
+      <DependentUpon>Exemplaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IHM\Lecteur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IHM\Lecteur.Designer.cs">
+      <DependentUpon>Lecteur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IHM\LigneEmprunt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IHM\LigneEmprunt.Designer.cs">
+      <DependentUpon>LigneEmprunt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IHM\Livre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IHM\Livre.Designer.cs">
+      <DependentUpon>Livre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TOOLS\EditeurException.cs" />
+    <Compile Include="TOOLS\empruntException.cs" />
+    <Compile Include="TOOLS\ExemplaireException.cs" />
+    <Compile Include="TOOLS\LigneEmpruntException.cs" />
+    <Compile Include="TOOLS\livreException.cs" />
+    <EmbeddedResource Include="IHM\Editeur.resx">
+      <DependentUpon>Editeur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IHM\Emprunt.resx">
+      <DependentUpon>Emprunt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IHM\Exemplaire.resx">
+      <DependentUpon>Exemplaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IHM\Lecteur.resx">
+      <DependentUpon>Lecteur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IHM\LigneEmprunt.resx">
+      <DependentUpon>LigneEmprunt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IHM\Livre.resx">
+      <DependentUpon>Livre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
